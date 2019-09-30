@@ -1,0 +1,51 @@
+Script started on Fri 20 Sep 2019 04:04:40 PM PDT
+]0;shark003@empress:~/HW2_Binary_search[?1034h[shark003@empress HW2_Binary_search]$ logouscd .[3P/cs/recordhw test2.tx1.tx2.tlscd .[3Plogo[Klogouscd .[3P/cs/recordhw test2.tx1.t[5Phistor./queuetesls./queuls./queueteslsg++ queue.cpp -o queuetest queuetest.c[10P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-o [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[10@queue.cpp [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clsg++ queue.cpp -o queuetest queuetest.c[10P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-o [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[.cpp queuetest.cppp [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pqueue queue.cpp client2.cpp
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[./a.out
+What do you want to look for? 1
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 0
+Found it in position 1
+]0;shark003@empress:~/HW2_Binary_search[shark003@empress HW2_Binary_search]$ ./a.out
+What do you want to look for? 19
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+comparing against an element in slot 9
+Found it in position 10
+]0;shark003@empress:~/HW2_Binary_search[shark003@empress HW2_Binary_search]$ ./a.out
+What do you want to look for? 5
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 2
+Found it in position 3
+]0;shark003@empress:~/HW2_Binary_search[shark003@empress HW2_Binary_search]$ ./a.out
+What do you want to look for? 17
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+Found it in position 9
+]0;shark003@empress:~/HW2_Binary_search[shark003@empress HW2_Binary_search]$ ./a.out
+What do you want to look for? 21
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+comparing against an element in slot 9
+Element is not found
+]0;shark003@empress:~/HW2_Binary_search[shark003@empress HW2_Binary_search]$ ./a.out
+What do you want to look for? 0
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 0
+Element is not found
+]0;shark003@empress:~/HW2_Binary_search[shark003@empress HW2_Binary_search]$ ./a.out
+What do you want to look for? 6
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 2
+comparing against an element in slot 3
+Element is not found
+]0;shark003@empress:~/HW2_Binary_search[shark003@empress HW2_Binary_search]$ exit
+exit
+
+Script done on Fri 20 Sep 2019 04:06:04 PM PDT
