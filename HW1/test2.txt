@@ -1,0 +1,267 @@
+Script started on Sat 07 Sep 2019 03:41:32 PM PDT
+]0;shark003@empress:~/HW1[?1034h[shark003@empress HW1]$ ex./stacktes[8Pex./client1 
+type a postfix expression: 34+
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+STACK:---------
+7
+--------------
+The evaluated result is: 7
+]0;shark003@empress:~/HW1[shark003@empress HW1]$ ./client1 
+type a postfix expression: 345+*
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+STACK:---------
+5
+4
+3
+--------------
+STACK:---------
+9
+3
+--------------
+STACK:---------
+27
+--------------
+The evaluated result is: 27
+]0;shark003@empress:~/HW1[shark003@empress HW1]$ ./client1 
+type a postfix expression: 722+-
+STACK:---------
+7
+--------------
+STACK:---------
+2
+7
+--------------
+STACK:---------
+2
+2
+7
+--------------
+STACK:---------
+4
+7
+--------------
+STACK:---------
+3
+--------------
+The evaluated result is: 3
+]0;shark003@empress:~/HW1[shark003@empress HW1]$ ./client1 
+type a postfix expression: 34+56++
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+STACK:---------
+7
+--------------
+STACK:---------
+5
+7
+--------------
+STACK:---------
+6
+5
+7
+--------------
+STACK:---------
+11
+7
+--------------
+STACK:---------
+18
+--------------
+The evaluated result is: 18
+]0;shark003@empress:~/HW1[shark003@empress HW1]$ ./client1 
+type a postfix expression: 12+34*45+-+
+STACK:---------
+1
+--------------
+STACK:---------
+2
+1
+--------------
+STACK:---------
+3
+--------------
+STACK:---------
+3
+3
+--------------
+STACK:---------
+4
+3
+3
+--------------
+STACK:---------
+12
+3
+--------------
+STACK:---------
+4
+12
+3
+--------------
+STACK:---------
+5
+4
+12
+3
+--------------
+STACK:---------
+9
+12
+3
+--------------
+STACK:---------
+3
+3
+--------------
+STACK:---------
+6
+--------------
+The evaluated result is: 6
+]0;shark003@empress:~/HW1[shark003@empress HW1]$ ./client1 
+type a postfix expression: 1234567891234
+STACK:---------
+1
+--------------
+STACK:---------
+2
+1
+--------------
+STACK:---------
+3
+2
+1
+--------------
+STACK:---------
+4
+3
+2
+1
+--------------
+STACK:---------
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+1
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+Error: Stack overflow, the expression was too long
+]0;shark003@empress:~/HW1[shark003@empress HW1]$ ./client1 
+type a postfix expression: +
+Error: Stack underflow, to few operands(numbers)
+]0;shark003@empress:~/HW1[shark003@empress HW1]$ ./client1 
+type a postfix expression: 3+
+STACK:---------
+3
+--------------
+Error: Stack underflow, to few operands(numbers)
+]0;shark003@empress:~/HW1[shark003@empress HW1]$ ./client1 
+type a postfix expression: 3#
+STACK:---------
+3
+--------------
+Error: Expression contains invalid item!
+]0;shark003@empress:~/HW1[shark003@empress HW1]$ ./client1 
+type a postfix expression: 2345+
+STACK:---------
+2
+--------------
+STACK:---------
+3
+2
+--------------
+STACK:---------
+4
+3
+2
+--------------
+STACK:---------
+5
+4
+3
+2
+--------------
+STACK:---------
+9
+3
+2
+--------------
+The evaluated result is: 9
+[Error] Incomplete expression! 
+
+Current stack
+--------------
+STACK:---------
+3
+2
+--------------
+]0;shark003@empress:~/HW1[shark003@empress HW1]$ exit
+exit
+
+Script done on Sat 07 Sep 2019 03:44:14 PM PDT
