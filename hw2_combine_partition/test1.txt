@@ -1,0 +1,40 @@
+Script started on Fri 27 Sep 2019 08:01:48 PM PDT
+]0;shark003@empress:~/hw2_combine_partition[?1034h[shark003@empress hw2_combine_partition]$ ./hw2combineDemo.ols[[[K./partition 
+How many elements? (must be less than 10) 7
+Enter elements one per line..
+1 2 3 4 5 6 7
+Ok the pivot is 1
+Results...
+1|234567
+]0;shark003@empress:~/hw2_combine_partition[shark003@empress hw2_combine_partition]$ ./partition 
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+8 7 6 5 4 3 2 1
+Ok the pivot is 8
+Results...
+1765432|8
+]0;shark003@empress:~/hw2_combine_partition[shark003@empress hw2_combine_partition]$ ./partitio[9@hw2combineDemo.out[[9Ppartition[C
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+5 1 4 3 6 7 8 2
+Ok the pivot is 5
+Results...
+2143|6785
+]0;shark003@empress:~/hw2_combine_partition[shark003@empress hw2_combine_partition]$ ./partition 
+How many elements? (must be less than 10) 6
+Enter elements one per line..
+4 3 1 2 7 5
+Ok the pivot is 4
+Results...
+231|475
+]0;shark003@empress:~/hw2_combine_partition[shark003@empress hw2_combine_partition]$ ./partitio[9@hw2combineDemo.out[[9Ppartition[C
+How many elements? (must be less than 10) 5
+Enter elements one per line..
+2 6 4 1 7
+Ok the pivot is 2
+Results...
+1|6427
+]0;shark003@empress:~/hw2_combine_partition[shark003@empress hw2_combine_partition]$ exit
+exit
+
+Script done on Fri 27 Sep 2019 08:03:23 PM PDT

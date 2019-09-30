@@ -1,0 +1,72 @@
+Script started on Fri 27 Sep 2019 08:09:21 PM PDT
+]0;shark003@empress:~/hw2_combine_partition[?1034h[shark003@empress hw2_combine_partition]$ ex./partitio[9@hw2combineDemo.out[[9Ppaa.out
+How many elements in each list?
+3
+List1
+element :1
+element :2
+element :3
+List2
+element :4
+element :5
+element :6
+ - comparison!
+ - comparison!
+ - comparison!
+The result is: 123456
+]0;shark003@empress:~/hw2_combine_partition[shark003@empress hw2_combine_partition]$ ./a.out
+How many elements in each list?
+3
+List1
+element :1
+element :3
+element :5
+List2
+element :2
+element :4
+element :6
+ - comparison!
+ - comparison!
+ - comparison!
+ - comparison!
+ - comparison!
+The result is: 123456
+]0;shark003@empress:~/hw2_combine_partition[shark003@empress hw2_combine_partition]$ ./a.out
+How many elements in each list?
+3
+List1
+element :4
+element :5
+element :6
+List2
+element :1
+element :2
+element :3
+ - comparison!
+ - comparison!
+ - comparison!
+The result is: 123456
+]0;shark003@empress:~/hw2_combine_partition[shark003@empress hw2_combine_partition]$ ./a.out
+How many elements in each list?
+4
+List1
+element :1
+element :2
+element :5
+element :6
+List2
+element :3
+element :4
+element :7
+element :8
+ - comparison!
+ - comparison!
+ - comparison!
+ - comparison!
+ - comparison!
+ - comparison!
+The result is: 12345678
+]0;shark003@empress:~/hw2_combine_partition[shark003@empress hw2_combine_partition]$ exit
+exit
+
+Script done on Fri 27 Sep 2019 08:11:03 PM PDT
