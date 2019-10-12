@@ -6,13 +6,13 @@
 
 // =======================================================
 // HW#: HW3P1 llist
-// Your name: **
+// Your name: Mike Sharko
 // Compiler:  g++ 
 // File type: headher file  llist.h
 //=======================================================
 
 // alias el_t : element type definition
-typedef ** el_t;
+typedef int el_t;
 
 //a list node is defined here as a struct Node for now
 struct Node
@@ -36,34 +36,34 @@ class llist
  public:
 
   // Exception handling classes 
-  class Underflow{};
+  class Underflow{}; // thrown when Underflow
   class OutOfRange{};  // thrown when the specified Node is out of range
 
   llist ();     // constructor to create a list object
   ~llist();     // destructor to destroy all nodes
   
-  //**
+  // Checks if the link list is empty or not.
   bool isEmpty();
     
-  //**
+  //Displays all the nodes in the link list.
   void displayAll();
 
-  //**
+  //  Adds a new node to the front of the linked list.
   void addFront(el_t);
     
-  //**
+  // Adds a new node to the rear of linked list
   void addRear(el_t);
 
-  //**
+  // Deletes front node
   void deleteFront(el_t&);
     
-  //**
+  // Deletes rear node
   void deleteRear(el_t&);
     
-  //**
+  //Deletes the node in the I'th position
   void deleteIth(int, el_t&);  // calls moveTo
 
-  //**    
+  //Inserts node to the I'th position
   void insertIth(int, el_t);   // calls moveTo
 
   //Copy Constructor to allow pass by value and return by value of a llist
