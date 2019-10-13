@@ -31,7 +31,7 @@ class llist
   int  Count;        // counter for the number of nodes
 
   // untility function to move to a specified node position
-  moveTo(int, Node*&);
+   void moveTo(int, Node*&); 
   
  public:
 

@@ -159,9 +159,8 @@ void llist::deleteFront(el_t& OldNum) {  // comment the 3 cases
 	// second points to node next to front and front is deleted.
 	// second is now the front.
 	else {
-		OldNum = Front->Elem; // compiler thrown an exeption here!!!!!!!!!!!!!
-		Node* second; // pointer points to node after front.
-		second = Front->Next;
+		OldNum = Front->Elem;
+		Node* second = Front->Next; // pointer points to node after front.
 		delete Front;
 		Front = second;
 		Count--;
