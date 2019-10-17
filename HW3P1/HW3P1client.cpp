@@ -232,7 +232,7 @@ void caseThree()
   cout << "L1: "; L1.displayAll();
 //
 //  ////6. Create a 4 element list L2 with 7,8,9,10.
-//  cout << "Step " << counter << endl; counter++;
+  cout << "Step " << counter << endl; counter++;
   L2.addRear(7);
   L2.addRear(8);
   L2.addRear(9);
@@ -240,32 +240,32 @@ void caseThree()
 //
 //
 //  ////7. Display L2
-//  cout << "Step " << counter << endl; counter++;
+  cout << "Step " << counter << endl; counter++;
   cout << "L2: " ; L2.displayAll();
 //
 //  ////8. Do L2 = L1;  (L2 becomes 5 elements 1,2,3,4,5)
-  //cout << "Step " << counter << " Gets" << endl; counter++;
-  //L2 = L1;
-//
+  cout << "Step " << counter << " Gets" << endl; counter++;
+  L2 = L1;
+
 //  ////9. Display L2.
-//  cout << "Step " << counter << endl; counter++;
-//  cout << "L2: "; L2.displayAll();
+  cout << "Step " << counter << endl; counter++;
+  cout << "L2: "; L2.displayAll();
 //
 //  ////10. Remove a rear node from L1. (This should not affect L2).
-//  cout << "Step " << counter << endl; counter++;
-//  L2.deleteRear(x);
-//
+  cout << "Step " << counter << endl; counter++;
+  L1.deleteRear(x);
+
 //  ////11. Display L1.   (L1 is 1,2,3,4)
-//  cout << "Step " << counter << endl; counter++;
-//  cout << "L1 :";    L1.displayAll();
+  cout << "Step " << counter << endl; counter++;
+  cout << "L1 :";    L1.displayAll();
 //
-//  ////12. Display L1 again. (4 elements just to make sure)
-// /* cout << "Step " << counter << endl; counter++;
-//  cout << "L1: ";    L1.displayAll();
-//*/
+ //12. Display L1 again. (4 elements just to make sure)
+  cout << "Step " << counter << endl; counter++;
+  cout << "L1: ";    L1.displayAll();
+ 
 //  ////13. Display L2 again. (still 5 elements 1,2,3,4,5)
-//  //cout << "Step " << counter << endl; counter++;
-//  //cout << "L2: ";    L2.displayAll();
+  cout << "Step " << counter << endl; counter++;
+  cout << "L2: ";    L2.displayAll();
 }
 
 //PURPOSE of the Program: to test llist thoroughly

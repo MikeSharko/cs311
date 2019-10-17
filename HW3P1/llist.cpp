@@ -159,7 +159,7 @@ void llist::deleteFront(el_t& OldNum) {  // comment the 3 cases
 	// second points to node next to front and front is deleted.
 	// second is now the front.
 	else {
-		OldNum = Front->Elem; // compiler thrown an exeption here!!!!!!!!!!!!!
+		OldNum = Front->Elem;  
 		Node* second; // pointer points to node after front.
 		second = Front->Next;
 		delete Front;
@@ -305,39 +305,30 @@ void llist::insertIth(int I, el_t newNum) {  // use moveTo to move local pointer
 } 
 
 //PURPOSE: copies the list value by value
-//PARAMETER:
+//PARAMETER: Original is the Original list that is being copid from
 llist::llist(const llist &Original) { // !!!!!!!!!!!!!!!!!!! use my code!!!!!!!!!!!!!!!!!!
 
-	el_t x;
+ 
 	Front = NULL;
 	Rear = NULL;
 	Count = 0;
-	// First make sure this-> and OtherOne are not the same object.
-	// To do this, compare the pointers to the objects .
-	if (&Original != this)  // if not the same
+	Node* P; //local pointer for Original
+	P = Original.Front;
+	 
+	while (P != NULL)
 	{
-		// this-> object has to be emptied first.
-		while (!this->isEmpty())
-			this->deleteRear(x);
-		// this-> object has to be built up by allocating new cells with OtherOne elements (**)
-		Node* P;  // local pointer for OtherOne
-		P = Original.Front;
-		while (P != NULL)  // a loop which repeats until you reach the end of OtherOne. 
-		{
-			this->addRear(P->Elem);    //P’s element is added to this->
-			P = P->Next;                         // Go to the next node in OtherOne   
-		}
-	}// end of if              
+		this->addRear(P->Elem);
+		P = P->Next;
+	}
+
 	   // return the result unconditionally.  Note that the result is returned by reference.
 	}
  
-//PURPOSE:
-//PARAMETER:
+//PURPOSE: allows client to use = operator for linked list objects
+//PARAMETER: Otherone is the list that is being assigned to "This"
 llist& llist::operator=(const llist& OtherOne) {
 	el_t x;
-	Front = NULL;
-	Rear = NULL;
-	// First make sure this-> and OtherOne are not the same object.
+ 	// First make sure this-> and OtherOne are not the same object.
 	// To do this, compare the pointers to the objects .
 	if (&OtherOne != this)  // if not the same
 	{
