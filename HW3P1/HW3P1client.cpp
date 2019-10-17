@@ -218,7 +218,7 @@ void caseThree()
   cout << "-- After copytest --- " << endl;
  
  //3. Display L1 (this should still be a 5 element list)
-   cout << counter << endl; counter++;
+   cout << "Step" << counter << endl; counter++;
    cout << "L1: "; L1.displayAll();
 // 
 //  cout << "-- Testing operator overloading ---" << endl;
