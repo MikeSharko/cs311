@@ -84,10 +84,10 @@ void llist::addRear(el_t NewNum) { // comment the 2 cases. Will do
 		// new node called mynode is created then its element is set.
 		// front and rear pointed to my node. then rear next points to null.
 	if (Count == 0) {
-		Node* mynode = new Node; // creates new node.
-		mynode->Elem = NewNum;
-		Front = mynode;
-		Rear = mynode;
+		Node* p = new Node; // creates new node.
+		p->Elem = NewNum;
+		Front = p;
+		Rear = p;
 		Rear->Next = NULL;
 		Count++;
 	}
@@ -112,10 +112,10 @@ void llist::addFront(el_t NewNum) {
 		// new node created, then element is set. front and rear points to mynode.
 		// lastly rear points to null.
 	if (Count == 0) {
-		Node* mynode = new Node; // creates new node
-		mynode->Elem = NewNum;
-		Front = mynode;
-		Rear = mynode;
+		Node* p = new Node; // creates new node
+		p->Elem = NewNum;
+		Front = p;
+		Rear = p;
 		Rear->Next = NULL;
 		Count++;
 	}
@@ -123,10 +123,10 @@ void llist::addFront(el_t NewNum) {
 	// 2) regular case
 	// new node created, then element is set. mynode next set to front, then front points mynode.
 	else {
-		Node* mynode = new Node; // creates new node
-		mynode->Elem = NewNum;
-		mynode->Next = Front;
-		Front = mynode;
+		Node* p = new Node; // creates new node
+		p->Elem = NewNum;
+		p->Next = Front;
+		Front = p;
 		Count++;
 	}
 

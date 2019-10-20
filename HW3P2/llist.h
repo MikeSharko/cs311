@@ -25,10 +25,9 @@ struct Node
 class llist
 {
   
- private:
+protected:
   Node *Front;       // pointer to the front node
   Node *Rear;        // pointer to the rear node
-  
   int  Count;        // counter for the number of nodes
 
   // untility function to move to a specified node position
