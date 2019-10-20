@@ -1,0 +1,139 @@
+Script started on Sat 19 Oct 2019 10:16:52 PM PDT
+]0;shark003@empress:~/GIT/cs311/HW3P2[?1034h[shark003@empress HW3P2]$ logo./a.oug++ HW3P1client.cpp llist.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clscd HW3P1[4Pcd .[3Pgit puls./a.oulscd HW3P1ls[[[Kls
+[0m[01;32ma.out[0m  HW3P1client.cpp  HW3P2_slist_w8S.rtf  llist.h    slist.h
+[01;32mHW3P1[0m  HW3P2client.cpp  llist.cpp            slist.cpp  ,testP1.txt
+]0;shark003@empress:~/GIT/cs311/HW3P2[shark003@empress HW3P2]$ ./HW3P1 
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>1
+CASE 1: Basic --------------- 
+... in llist constructor...
+Step 1
+It is empty
+Step 2
+ - [ empty ]
+Step 3 adding 1 2 3 4
+Step 4
+ - [ 1 ][ 2 ][ 3 ][ 4 ]
+Step 5 deleteFront twice
+ - Element 1 has been removed.
+ - Element 2 has been removed.
+Removed: 2
+Step 6
+ - [ 3 ][ 4 ]
+Step 7
+It is not empty
+Step 8 deleteRear twice
+Removed: 4
+Removed: 3
+Step 9
+ - The linked List is empty.
+ - The linked List is not empty.
+
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>2
+Case 2: Insert and Delete ------------
+... in llist constructor...
+Step 1 addFront 9 8 6 5
+Step 2
+ - [ 5 ][ 6 ][ 8 ][ 9 ]
+Step 3 insert first 4
+Step 4 insert 4th 7
+Step 5 insert 7th 10
+ - [ 4 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][ 10 ]
+Step 6 insert 9th
+ *Error out of range.* 
+Step7 insert 0th
+ *Error out of range.* 
+Step 8
+ - [ 4 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][ 10 ]
+Step 9 delete 1st
+removed 4
+Step 10 delete 6th
+Removed: 10
+Step 11 delete 3rd
+Removed: 7
+ - [ 5 ][ 6 ][ 8 ][ 9 ]
+Step 12 delete 5th
+ *Error out of range.* 
+Step 13 delete 0th
+ *Error out of range.* 
+Step 14
+ - [ 5 ][ 6 ][ 8 ][ 9 ]
+Step 15 delete all
+ - Element 9 has been removed.
+ - Element 8 has been removed.
+ - Element 6 has been removed.
+ - Element 5 has been removed.
+
+Step 16
+ - [ empty ]
+Step 17 insert 0th
+ *Error out of range.* Step 18 deleteFront
+ *Error Underflow.* Step 19 delete 2nd
+ - Error, out of range.
+Step 20 deleteRear
+ *Error Underflow.* .... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>3
+Case 3: Copy Constructor and = -------
+... in llist constructor...
+... in llist constructor...
+Step1
+L1:  - [ 1 ][ 2 ][ 3 ][ 4 ][ 5 ]
+Step2
+in copy test
+ - [ 1 ][ 2 ][ 3 ][ 4 ][ 5 ][ 6 ]
+finished
+.... in llist destructor...
+-- After copytest --- 
+Step3
+L1:  - [ 1 ][ 2 ][ 3 ][ 4 ][ 5 ]
+Step 4 Gets
+Step 5
+L1:  - [ 1 ][ 2 ][ 3 ][ 4 ][ 5 ]
+Step 6
+Step 7
+L2:  - [ 7 ][ 8 ][ 9 ][ 10 ]
+Step 8 Gets
+Step 9
+L2:  - [ 1 ][ 2 ][ 3 ][ 4 ][ 5 ]
+Step 10
+Step 11
+L1 : - [ 1 ][ 2 ][ 3 ][ 4 ]
+Step 12
+L1:  - [ 1 ][ 2 ][ 3 ][ 4 ]
+Step 13
+L2:  - [ 1 ][ 2 ][ 3 ][ 4 ][ 5 ]
+.... in llist destructor...
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>0
+]0;shark003@empress:~/GIT/cs311/HW3P2[shark003@empress HW3P2]$ exit
+exit
+
+Script done on Sat 19 Oct 2019 10:17:25 PM PDT

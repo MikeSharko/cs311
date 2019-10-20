@@ -1,0 +1,49 @@
+Script started on Sat 19 Oct 2019 10:17:54 PM PDT
+]0;shark003@empress:~/GIT/cs311/HW3P2[?1034h[shark003@empress HW3P2]$ ex./HW3P1[[[[[[Ka.out 
+... in llist constructor...
+... in llist constructor...
+.... in llist destructor...
+slist Constructor: 
+Step 1 addFront
+Step 2 addRear
+Step 3
+ - [ 4 ][ 6 ][ 7 ][ 8 ]
+Step 4
+Found 6 in location 2
+Step 5 replace 6
+replaced 6 with 0
+Step 6
+ - [ 4 ][ 0 ][ 7 ][ 8 ]
+Step 7
+Found 8 in location 4
+Step 8 replace 8
+replaced 8 with 2
+Step 9
+ - [ 4 ][ 0 ][ 7 ][ 2 ]
+Step 10
+ Not found
+Step 11 replace 7
+ERROR: Bad position was given
+.... in llist destructor...
+---- First Part testing done ----- 
+... in llist constructor...
+... in llist constructor...
+.... in llist destructor...
+slist Constructor: 
+... in llist constructor...
+... in llist constructor...
+.... in llist destructor...
+slist Constructor: 
+true
+false
+false
+true
+false
+false
+false
+.... in llist destructor...
+.... in llist destructor...
+]0;shark003@empress:~/GIT/cs311/HW3P2[shark003@empress HW3P2]$ exit
+exit
+
+Script done on Sat 19 Oct 2019 10:18:04 PM PDT
