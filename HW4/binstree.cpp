@@ -12,7 +12,7 @@
 
 // =========================================================
 //HW#: HW4 BST
-//Your name: **
+//Your name: Mike Sharko
 //Complier:  g++
 //File type: implementation file binstree.cpp
 //================================================================
