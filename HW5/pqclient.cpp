@@ -24,17 +24,17 @@ int main()
 
   Jobs.insertjob(50); // error message
 
-  //Jobs.printjob();
-  //Jobs.displayAll();
-  //Jobs.printjob();
-  //Jobs.displayAll();
-  //Jobs.printjob();
-  //Jobs.displayAll();
-  //Jobs.printjob();
-  //Jobs.displayAll();
+  Jobs.printjob();
+  Jobs.displayAll();
+  Jobs.printjob();
+  Jobs.displayAll();
+  Jobs.printjob();
+  Jobs.displayAll();
+  Jobs.printjob();
+  Jobs.displayAll();
 
-  //Jobs.insertjob(2);
-  //Jobs.displayAll();
-  //Jobs.insertjob(3);
-  //Jobs.displayAll();
+  Jobs.insertjob(2);
+  Jobs.displayAll();
+  Jobs.insertjob(3);
+  Jobs.displayAll();
 }  

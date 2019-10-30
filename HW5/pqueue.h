@@ -13,12 +13,13 @@ class pqueue
 {
   private:
 
-  int Q[MAX];		// array holding jobs - only priority numbers are stored
+  int Q[MAX] = {};  // array holding jobs - only priority numbers are stored
+  // added "{}"   because i had a warning of uninitialized array by compiler.
   int count;		// how many jobs are in the array
 					 // jobs are in slots 0 through count-1
 
   // Utility functions
-  void swap(int, int);
+  void swap(int a, int b);
   void reheapify();		 // reheapify after printing
       // - involves moving the last job to the front and trickling down
 
