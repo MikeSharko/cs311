@@ -1,5 +1,5 @@
-Script started on Tue 29 Oct 2019 09:44:00 PM PDT
-]0;shark003@empress:~/GIT/cs311/HW5[?1034h[shark003@empress HW5]$ ./hw5.oulscd[[[K./pqueue 
+Script started on Tue 29 Oct 2019 09:48:48 PM PDT
+]0;shark003@empress:~/GIT/cs311/HW5[?1034h[shark003@empress HW5]$ ./pqueue 
 Adding: 20
 Adding: 12
 Jobs: 12 20 
@@ -32,4 +32,4 @@ Jobs: 2 3 11 8 10 30 12 20 9
 ]0;shark003@empress:~/GIT/cs311/HW5[shark003@empress HW5]$ exit
 exit
 
-Script done on Tue 29 Oct 2019 09:44:11 PM PDT
+Script done on Tue 29 Oct 2019 09:49:07 PM PDT
