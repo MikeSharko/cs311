@@ -1,0 +1,121 @@
+Script started on Sat 16 Nov 2019 01:11:51 PM PST
+]0;shark003@empress:~/GIT/cs311/HW7[?1034h[shark003@empress HW7]$ ./hw7.oulscd forHWlscd forHWls./hw7.ou[K./hw7.oulscd forHWlscd forHWlscd forHWlscd HWProgramlsex[1Pto[1P./a.out 
+Enter a file name: table.txt
+A 2 [ B F ]
+B 2 [ C G ]
+C 1 [ H ]
+D 0 [empty]
+E 0 [empty]
+F 2 [ I E ]
+G 0 [empty]
+H 2 [ G I ]
+I 3 [ A G E ]
+Removed A from stack
+Visit A as 2
+...pushing [ B F ]
+The Stack is now: 
+B
+F
+--------------
+Removed B from stack
+Visit B as 3
+...pushing [ C G ]
+The Stack is now: 
+C
+G
+F
+--------------
+Removed C from stack
+Visit C as 4
+...pushing [ H ]
+The Stack is now: 
+H
+G
+F
+--------------
+Removed H from stack
+Visit H as 5
+...pushing [ G I ]
+The Stack is now: 
+G
+I
+G
+F
+--------------
+Removed G from stack
+Visit G as 6
+Deadend reached – backup
+The Stack is now: 
+I
+G
+F
+--------------
+Removed I from stack
+Visit I as 7
+...pushing [ A G E ]
+The Stack is now: 
+A
+G
+E
+G
+F
+--------------
+Removed A from stack
+A has been visited already - backup
+The Stack is now: 
+G
+E
+G
+F
+--------------
+Removed G from stack
+G has been visited already - backup
+The Stack is now: 
+E
+G
+F
+--------------
+Removed E from stack
+Visit E as 8
+Deadend reached – backup
+The Stack is now: 
+G
+F
+--------------
+Removed G from stack
+G has been visited already - backup
+The Stack is now: 
+F
+--------------
+Removed F from stack
+Visit F as 9
+...pushing [ I E ]
+The Stack is now: 
+I
+E
+--------------
+Removed I from stack
+I has been visited already - backup
+The Stack is now: 
+E
+--------------
+Removed E from stack
+E has been visited already - backup
+The Stack is now: 
+[ empty ]
+--------------
+
+The Final Graph is: 
+A 2 [ B F ]
+B 2 [ C G ]
+C 1 [ H ]
+D 0 [empty]
+E 0 [empty]
+F 2 [ I E ]
+G 0 [empty]
+H 2 [ G I ]
+I 3 [ A G E ]
+]0;shark003@empress:~/GIT/cs311/HW7[shark003@empress HW7]$ exit
+exit
+
+Script done on Sat 16 Nov 2019 01:12:12 PM PST
