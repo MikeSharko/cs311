@@ -7,7 +7,7 @@
 // Complete all ** parts 
 //=================================================
 // HW#: HW3P2 slist
-// Name: James Bertel
+// Name: Mike Sharko
 // File: slist.h
 //=================================================
 

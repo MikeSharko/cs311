@@ -5,7 +5,7 @@
 
 //============================================
 // HW#: HW8 hashing client
-// Name: James Bertel
+// Name: Mike Sharko
 // File type: client hw8client.cpp (tester)
 //===========================================
 //#include "elem.h"

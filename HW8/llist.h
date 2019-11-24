@@ -6,7 +6,7 @@
 
 // =======================================================
 // HW#: HW3P1 llist
-// Your name: James Bertel
+// Your name: Mike Sharko
 // Compiler:  g++ 
 // File type: header file  llist.h
 //=======================================================

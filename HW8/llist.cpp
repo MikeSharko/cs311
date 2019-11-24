@@ -14,7 +14,7 @@
 
 // ====================================================
 //HW#: HW3P1 llist
-//Your name: James Bertel
+//Your name: Mike Sharko
 //Complier:  g++
 //File type: llist.cpp implementation file
 //=====================================================

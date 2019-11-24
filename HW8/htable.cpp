@@ -5,10 +5,10 @@
 
 // ============================================
 // HW#: HW8 Hash Table
-// Name: James Bertel
+// Name: Mike Sharko
 // File Type: implementation htable.cpp
 // =============================================
-
+ 
 using namespace std;
 #include <iostream>
 #include "htable.h"

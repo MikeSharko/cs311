@@ -2,7 +2,7 @@
 
 // ====================================================
 //HW#: HW3P1 slist  inheriting from llist
-//Your name: James Bertel
+//Your name: Mike Sharko
 //Complier:  g++
 //File type: slist.cpp implementation file
 //=====================================================
