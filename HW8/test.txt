@@ -1,0 +1,165 @@
+Script started on Sat 23 Nov 2019 08:00:54 PM PST
+]0;shark003@empress:~/GIT/cs311/HW8[?1034h[shark003@empress HW8]$ ex./a.out 
+
+Enter a key to add to the table: 200
+
+Enter a name for the key: john
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 237
+
+Enter a name for the key: jeremy
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 201
+
+Enter a name for the key: steve
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 238
+
+Enter a name for the key: nancy
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 201
+
+Enter a name for the key: steve
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 23135
+
+Enter a name for the key: mike
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 136
+
+Enter a name for the key: daria
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 149 
+
+Enter a name for the key: Smith
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 150
+
+Enter a name for the key: Albert
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 151
+
+Enter a name for the key: Madonna
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 152
+
+Enter a name for the key: Peter
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 160
+
+Enter a name for the key: CristianBale
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 161
+
+Enter a name for the key: Mustofa
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 177
+
+Enter a name for the key: Lina
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 178
+
+Enter a name for the key: rika
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 190
+
+Enter a name for the key: OneGuy
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 195
+
+Enter a name for the key: Mimi
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 196 
+
+Enter a name for the key: LalaLand
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 90
+
+Enter a name for the key: DonaldTrump
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 444
+
+Enter a name for the key: MrBigOne
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 55
+
+Enter a name for the key: mike
+Enter 0 to stop adding elements, or enter 1 to continue: 1
+
+Enter a key to add to the table: 333
+
+Enter a name for the key: Luis
+Enter 0 to stop adding elements, or enter 1 to continue: 0
+0:[ 444+MrBigOne 333+Luis ]
+1:[ 149+Smith ]
+2:[ 150+Albert ]
+3:[ 151+Madonna ]
+4:[ 152+Peter ]
+5:[ 190+OneGuy ]
+6:[empty]
+7:[empty]
+8:[empty]
+9:[empty]
+10:[ 195+Mimi ]
+11:[ 196+LalaLand ]
+12:[ 160+CristianBale ]
+13:[ 161+Mustofa ]
+14:[empty]
+15:[ 200+john 237+jeremy ]
+16:[ 201+steve 238+nancy 201+steve 90+DonaldTrump ]
+17:[empty]
+18:[ 55+mike ]
+19:[empty]
+20:[empty]
+21:[empty]
+22:[empty]
+23:[empty]
+24:[ 135+mike ]
+25:[ 136+daria ]
+26:[empty]
+27:[empty]
+28:[empty]
+29:[ 177+Lina ]
+30:[ 178+rika ]
+31:[empty]
+32:[empty]
+33:[empty]
+34:[empty]
+35:[empty]
+36:[empty]
+Look for? 90
+Found 90: 90+DonaldTrump
+Enter 0 to stop add elements, or enter 1 to continue: 1
+Look for? 151
+Found 151: 151+Madonna
+Enter 0 to stop add elements, or enter 1 to continue: 1
+Look for? 398
+398 not found.
+Enter 0 to stop add elements, or enter 1 to continue: 1
+Look for? 201
+Found 201: 201+steve
+Enter 0 to stop add elements, or enter 1 to continue: 0
+]0;shark003@empress:~/GIT/cs311/HW8[shark003@empress HW8]$ exit
+exit
+
+Script done on Sat 23 Nov 2019 08:08:12 PM PST
