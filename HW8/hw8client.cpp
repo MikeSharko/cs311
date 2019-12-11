@@ -59,13 +59,5 @@ int main()
       cin >> end;
     }
 
-  /* **
- Loop:  
-   Interactively add about 20 keys and names to the table,
-     making sure some of them  collide. (function add)
-     You can create el_t containing a key and name using a constructor.
- DisplayTable.
- Loop:
-  Interactively look up names using keys. (function find)
-  Cout the key + name if found else (blank element was returned) error message. */
+   
  }
