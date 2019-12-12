@@ -107,7 +107,7 @@ int main()
 
 			  el_t element(key, name, lastname, phone,age,sex) ; //add key and name into an element
 			  int slot = theTable.add(element); //add element to the table
-			  fout.open(file, ofstream::app); //saving back to file
+			  fout.open("input.txt", ofstream::app); //saving back to file
 			  fout << "\n" << key <<" "<< name<< " " << lastname<< " " << phone<< " " << age<< " " << sex; // what saving
 			  cout << "Person added to DB ";
 		  }
