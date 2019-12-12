@@ -27,7 +27,13 @@ el_t::el_t(int akey, string aname, string alastname, string aphone, int aage, st
   age = aage;
   sex = asex;
 }
-  
+
+// initializing constructor to delete an el_t object   
+el_t::el_t(int akey) { // i suppose to make it but i didn't finish it in this version. maybe in future.
+	key = -1;
+}
+
+
 // overload == for search based on the key part only
 bool el_t::operator==(el_t OtherOne)
 {
@@ -40,7 +46,7 @@ bool el_t::operator!=(el_t OtherOne)
   if (key != OtherOne.key) return true; else return false;
 }
 
-// overload cout 
+// overload cout to display everything nicely
 ostream& operator<<(ostream& db, const el_t& E)  
 { 
 	db << left;

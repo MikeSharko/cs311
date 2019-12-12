@@ -36,6 +36,13 @@ int htable::add(el_t element)
   return slot;
 }
 
+int htable::del(el_t element)
+{
+	int slot = hash(element.key);  // hash with the key part
+	table[slot].deleteFront(element);
+ 
+	return slot;
+}
 // finds element using the skey and returns the found element itself
 // or a blank element
 el_t htable::find(int skey)
@@ -52,12 +59,12 @@ el_t htable::find(int skey)
 void htable::displayTable()
 {
   for (int i = 0; i < 10; i++)
-    { cout << i << ": " ;   
+    { cout <<"\t" << i << ": " ;   
       table[i].displayAll(); // call llist's displayAll
     }
   for (int i = 10; i <80; i++)   // second loop needed to align everything in a good way
   {								// does not affect the speed only for aestetics
-	  cout << i << ":";
+	  cout <<"\t" << i << ":";
 	  table[i].displayAll();  
   }
 

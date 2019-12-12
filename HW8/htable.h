@@ -18,6 +18,7 @@ class htable
   ~htable();
 
   int add(el_t);  // adds an element to the table and returns slot#
+  int del(el_t); //deletes an element from the data bse
   el_t find(int); // finds an element based on key and returns it
   void displayTable(); // displays the table with slot#s
 
