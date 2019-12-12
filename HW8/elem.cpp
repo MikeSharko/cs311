@@ -4,19 +4,28 @@
 //----------------------------------------------------
 
 #include "elem.h"
+#include<iomanip>
 
 // blank element
 el_t::el_t()
 {
   key = -1;
   name = "";
+  lastname = "";
+  phone = "";
+  age = -1;
+  sex = "";
 }
  
 // initializing constructor to create an el_t object 
-el_t::el_t(int akey, string aname)
+el_t::el_t(int akey, string aname, string alastname, string aphone, int aage, string asex)
 {
   key = akey;
   name = aname;
+  lastname = alastname;
+  phone = aphone;
+  age = aage;
+  sex = asex;
 }
   
 // overload == for search based on the key part only
@@ -32,8 +41,16 @@ bool el_t::operator!=(el_t OtherOne)
 }
 
 // overload cout 
-ostream& operator<<(ostream& os, const el_t& E)  
-{  
-  os << E.key << "+" << E.name;
-  return os;  
+ostream& operator<<(ostream& db, const el_t& E)  
+{ 
+	db << left;
+	
+	db << "Name: " << E.name;
+	db <<" "<< E.lastname;
+	db << "\t";
+	db << " | " << "Phone: " << E.phone; 
+	db << " | " << "Age: " << E.age;
+	db << " | " << "Sex: " << E.sex;
+	 
+  return db;  
 }  

@@ -1,17 +1,17 @@
 // CS311 Yoshii - Hash Table header DO NOT CHANGE!!! 
 // ------------------------------------------------
 #include "slist.h"
-#ifndef HTABLE_H
-#define HTABLE_H
+//#ifndef HTABLE_H
+//#define HTABLE_L
 
-const int TSIZE = 37;  // 37 slots ; a prime number 
+const int TSIZE = 101;  // 101 slots; a prime number 
 
 class htable
 {
  private:
  slist table[TSIZE]; // each node of slist is el_t 
                           // as defined in elem.h
- int hash(int);  // private hash function
+ int hash(int);		    // private hash function
 
  public:
   htable();
@@ -22,5 +22,5 @@ class htable
   void displayTable(); // displays the table with slot#s
 
 };
-#endif
+//#endif
  

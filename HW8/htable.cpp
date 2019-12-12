@@ -12,7 +12,7 @@
 using namespace std;
 #include <iostream>
 #include "htable.h"
-#ifndef HTABLE_CPP
+//#ifndef HTABLE_CPP
 #define HTABLE_CPP
 
 htable::htable()
@@ -28,10 +28,11 @@ int htable::hash(int key)
 }
 
 // adds the element to the table and returns slot#
-int htable::add(el_t element )
+int htable::add(el_t element)
 {
   int slot = hash(element.key);  // hash with the key part
-  table[slot].addRear(element); //put element in hashed slot
+  table[slot].addRear(element);
+  //table[slot].addRear(element); //put element in hashed slot 
   return slot;
 }
 
@@ -50,9 +51,15 @@ el_t htable::find(int skey)
 // displays the entire table with slot#s too
 void htable::displayTable()
 {
-  for (int i = 0; i < 37; i++)
-    { cout << i << ":" ;   
-      table[i].displayAll(); // call slist's displayAll
+  for (int i = 0; i < 10; i++)
+    { cout << i << ": " ;   
+      table[i].displayAll(); // call llist's displayAll
     }
+  for (int i = 10; i <80; i++)   // second loop needed to align everything in a good way
+  {								// does not affect the speed only for aestetics
+	  cout << i << ":";
+	  table[i].displayAll();  
+  }
+
 }
-#endif
+//#endif

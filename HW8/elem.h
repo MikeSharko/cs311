@@ -11,12 +11,15 @@ class el_t
 {
  private:
   int key;      // key
-  string name;  // customer name
-
+  string name;  //   name
+  string lastname; // lastname
+  string phone;  //   phone
+  int age;		//  age
+  string sex; 
  public:
 
   el_t();  // to create a blank el_t object
-  el_t(int, string); // to create an initialized el_t object
+  el_t(int, string ,string, string, int, string); // to create an initialized el_t object
 
   bool operator==(el_t);  // overload == for search
   bool operator!=(el_t);  // overload != for search

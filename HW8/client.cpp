@@ -114,7 +114,7 @@ int main()
 		  else if (choice == 3)
 			  theTable.displayTable();
 		  else if (choice == 4) 
-			  end = true; 
+			  end = true;
 
 	  }//endwhile
   }
