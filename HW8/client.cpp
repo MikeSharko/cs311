@@ -77,7 +77,7 @@ int main()
 			 
 			  cout << "\n\tEnter choice: ";
 			  cin >> choice;
-			  system("cls");
+			  system("clear");
 		  }
 		  while (choice < 1 || choice > 5);
 
