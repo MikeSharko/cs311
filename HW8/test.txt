@@ -1,0 +1,391 @@
+Script started on Thu 12 Dec 2019 11:42:55 AM PST
+]0;shark003@empress:~/GIT/cs311/HW8[?1034h[shark003@empress HW8]$ logo./a.out 
+	DataBase opens fine V. 1.1-beta
+
+	--------------M E N U-----------------
+
+	1. [ Search in DB ]
+	2. [ Add Person to DB ]
+	3. [ List all DB ]
+	4. [ About ]
+	5. [ End Program ]
+
+	--------------------------------------
+
+	Enter choice: 3
+[3;J[H[2J
+	0: [ Name: Elon Musk	 | Phone: 619-879-8790 | Age: 48 | Sex: M ]
+	1: [ Name: Mike Sharko	 | Phone: 619-724-8798 | Age: 37 | Sex: M ]
+	2: [ Name: Boby Deelan	 | Phone: 619-897-6987 | Age: 22 | Sex: M ]
+	3: [ Name: Nancy Drew	 | Phone: 858-897-8779 | Age: 44 | Sex: F ]
+	4: [ Name: Barack Obama	 | Phone: 676-321-8323 | Age: 63 | Sex: M ]
+	5: [ Name: Donald Trump	 | Phone: 858-988-6979 | Age: 70 | Sex: M ]
+	6: [ Name: Opra Winfrey	 | Phone: 858-989-8788 | Age: 72 | Sex: F ]
+	7: [ Name: Angela Jolie	 | Phone: 897-789-8798 | Age: 48 | Sex: F ]
+	8: [ Name: Tom Hanks	 | Phone: 789-786-9778 | Age: 67 | Sex: M ]
+	9: [ Name: Merlin Monro	 | Phone: 897-897-6786 | Age: 56 | Sex: F ]
+	10:[ Name: Bill Clinton	 | Phone: 897-977-8998 | Age: 65 | Sex: M ]
+	11:[ Name: Adam Sandler	 | Phone: 089-789-7987 | Age: 19 | Sex: M ]
+	12:[ Name: Bradd Pitt	 | Phone: 897-976-1897 | Age: 27 | Sex: M ]
+	13:[ Name: Aria Grande	 | Phone: 767-867-9086 | Age: 63 | Sex: F ]
+	14:[ Name: Jim Carrey	 | Phone: 986-789-6876 | Age: 38 | Sex: M ]
+	15:[ Name: Taylor Swift	 | Phone: 387-264-8732 | Age: 32 | Sex: F ]
+	16:[ Name: Katy Perry	 | Phone: 786-786-7896 | Age: 37 | Sex: F ]
+	17:[ Name: Ben Affleck	 | Phone: 234-234-9234 | Age: 48 | Sex: M ]
+	18:[ Name: Johnny Depp	 | Phone: 234-234-2234 | Age: 65 | Sex: M ]
+	19:[ Name: Andy Warhol	 | Phone: 619-724-9080 | Age: 80 | Sex: M ]
+	20:[ Name: Bill Gates	 | Phone: 619-545-3454 | Age: 70 | Sex: M ]
+	21:[ Name: Dalai Lama	 | Phone: 619-454-9848 | Age: 90 | Sex: M ]
+	22:[ Name: Walt Disney	 | Phone: 858-453-3434 | Age: 99 | Sex: M ]
+	23:[ Name: Peter Selers	 | Phone: 619-343-8783 | Age: 89 | Sex: M ]
+	24:[ Name: Leo Tolstoy	 | Phone: 858-903-3423 | Age: 67 | Sex: M ]
+	25:[ Name: Oscar Wilde	 | Phone: 619-343-3434 | Age: 34 | Sex: M ]
+	26:[ Name: Coco Chanel	 | Phone: 858-654-5235 | Age: 44 | Sex: M ]
+	27:[ Name: Mao Zedong	 | Phone: 858-234-2343 | Age: 45 | Sex: M ]
+	28:[ Name: Tiger Woods	 | Phone: 858-233-4234 | Age: 45 | Sex: M ]
+	29:[ Name: Anne Frank	 | Phone: 619-343-3232 | Age: 54 | Sex: F ]
+	30:[ Name: July Andrews	 | Phone: 858-324-8832 | Age: 85 | Sex: F ]
+	31:[ Name: Carl Lewis	 | Phone: 858-456-8402 | Age: 59 | Sex: M ]
+	32:[ Name: Nikola Tesla	 | Phone: 619-574-8465 | Age: 67 | Sex: M ]
+	33:[ Name: Henry Ford	 | Phone: 858-342-3243 | Age: 45 | Sex: M ]
+	34:[ Name: Alan Turing	 | Phone: 232-423-4534 | Age: 33 | Sex: M ]
+	35:[ Name: Steve Jobs	 | Phone: 234-234-2342 | Age: 27 | Sex: M ]
+	36:[ Name: Mark Twain	 | Phone: 234-234-2343 | Age: 18 | Sex: M ]
+	37:[ Name: James Cook	 | Phone: 838-987-8978 | Age: 34 | Sex: M ]
+	38:[ Name: John Locke	 | Phone: 767-897-8973 | Age: 87 | Sex: M ]
+	39:[ Name: James Watt	 | Phone: 234-324-4354 | Age: 90 | Sex: M ]
+	40:[ Name: Stan Lee	 | Phone: 858-234-8734 | Age: 70 | Sex: M ]
+	41:[ Name: Max Planck	 | Phone: 234-234-9089 | Age: 99 | Sex: M ]
+	42:[ Name: mike sharko	 | Phone: 000-000-0000 | Age: 45 | Sex: F ]
+	43:[empty]
+	44:[empty]
+	45:[empty]
+	46:[empty]
+	47:[empty]
+	48:[empty]
+	49:[empty]
+	50:[empty]
+	51:[empty]
+	52:[empty]
+	53:[empty]
+	54:[empty]
+	55:[empty]
+	56:[empty]
+	57:[empty]
+	58:[empty]
+	59:[empty]
+	60:[empty]
+	61:[empty]
+	62:[empty]
+	63:[empty]
+	64:[empty]
+	65:[empty]
+	66:[empty]
+	67:[empty]
+	68:[empty]
+	69:[empty]
+	70:[empty]
+	71:[empty]
+	72:[empty]
+	73:[empty]
+	74:[empty]
+	75:[empty]
+	76:[empty]
+	77:[empty]
+	78:[empty]
+	79:[empty]
+
+	--------------M E N U-----------------
+
+	1. [ Search in DB ]
+	2. [ Add Person to DB ]
+	3. [ List all DB ]
+	4. [ About ]
+	5. [ End Program ]
+
+	--------------------------------------
+
+	Enter choice: 1
+[3;J[H[2J
+	Enter a key: 1
+	Found 1: Name: Mike Sharko	 | Phone: 619-724-8798 | Age: 37 | Sex: M
+
+	--------------M E N U-----------------
+
+	1. [ Search in DB ]
+	2. [ Add Person to DB ]
+	3. [ List all DB ]
+	4. [ About ]
+	5. [ End Program ]
+
+	--------------------------------------
+
+	Enter choice: 1
+[3;J[H[2J
+	Enter a key: 0
+	Found 0: Name: Elon Musk	 | Phone: 619-879-8790 | Age: 48 | Sex: M
+
+	--------------M E N U-----------------
+
+	1. [ Search in DB ]
+	2. [ Add Person to DB ]
+	3. [ List all DB ]
+	4. [ About ]
+	5. [ End Program ]
+
+	--------------------------------------
+
+	Enter choice: 2
+[3;J[H[2J
+	Enter a key to add to the table: 55
+
+	Enter a name: Kevin
+
+	Enter last name: Costner
+\tnEnter phone number in format 000-000-0000: 619-656-3455
+
+	Enter age: 78
+
+	Enter sex: (M/F) M
+	Person added to DB 
+	--------------M E N U-----------------
+
+	1. [ Search in DB ]
+	2. [ Add Person to DB ]
+	3. [ List all DB ]
+	4. [ About ]
+	5. [ End Program ]
+
+	--------------------------------------
+
+	Enter choice: 3
+[3;J[H[2J
+	0: [ Name: Elon Musk	 | Phone: 619-879-8790 | Age: 48 | Sex: M ]
+	1: [ Name: Mike Sharko	 | Phone: 619-724-8798 | Age: 37 | Sex: M ]
+	2: [ Name: Boby Deelan	 | Phone: 619-897-6987 | Age: 22 | Sex: M ]
+	3: [ Name: Nancy Drew	 | Phone: 858-897-8779 | Age: 44 | Sex: F ]
+	4: [ Name: Barack Obama	 | Phone: 676-321-8323 | Age: 63 | Sex: M ]
+	5: [ Name: Donald Trump	 | Phone: 858-988-6979 | Age: 70 | Sex: M ]
+	6: [ Name: Opra Winfrey	 | Phone: 858-989-8788 | Age: 72 | Sex: F ]
+	7: [ Name: Angela Jolie	 | Phone: 897-789-8798 | Age: 48 | Sex: F ]
+	8: [ Name: Tom Hanks	 | Phone: 789-786-9778 | Age: 67 | Sex: M ]
+	9: [ Name: Merlin Monro	 | Phone: 897-897-6786 | Age: 56 | Sex: F ]
+	10:[ Name: Bill Clinton	 | Phone: 897-977-8998 | Age: 65 | Sex: M ]
+	11:[ Name: Adam Sandler	 | Phone: 089-789-7987 | Age: 19 | Sex: M ]
+	12:[ Name: Bradd Pitt	 | Phone: 897-976-1897 | Age: 27 | Sex: M ]
+	13:[ Name: Aria Grande	 | Phone: 767-867-9086 | Age: 63 | Sex: F ]
+	14:[ Name: Jim Carrey	 | Phone: 986-789-6876 | Age: 38 | Sex: M ]
+	15:[ Name: Taylor Swift	 | Phone: 387-264-8732 | Age: 32 | Sex: F ]
+	16:[ Name: Katy Perry	 | Phone: 786-786-7896 | Age: 37 | Sex: F ]
+	17:[ Name: Ben Affleck	 | Phone: 234-234-9234 | Age: 48 | Sex: M ]
+	18:[ Name: Johnny Depp	 | Phone: 234-234-2234 | Age: 65 | Sex: M ]
+	19:[ Name: Andy Warhol	 | Phone: 619-724-9080 | Age: 80 | Sex: M ]
+	20:[ Name: Bill Gates	 | Phone: 619-545-3454 | Age: 70 | Sex: M ]
+	21:[ Name: Dalai Lama	 | Phone: 619-454-9848 | Age: 90 | Sex: M ]
+	22:[ Name: Walt Disney	 | Phone: 858-453-3434 | Age: 99 | Sex: M ]
+	23:[ Name: Peter Selers	 | Phone: 619-343-8783 | Age: 89 | Sex: M ]
+	24:[ Name: Leo Tolstoy	 | Phone: 858-903-3423 | Age: 67 | Sex: M ]
+	25:[ Name: Oscar Wilde	 | Phone: 619-343-3434 | Age: 34 | Sex: M ]
+	26:[ Name: Coco Chanel	 | Phone: 858-654-5235 | Age: 44 | Sex: M ]
+	27:[ Name: Mao Zedong	 | Phone: 858-234-2343 | Age: 45 | Sex: M ]
+	28:[ Name: Tiger Woods	 | Phone: 858-233-4234 | Age: 45 | Sex: M ]
+	29:[ Name: Anne Frank	 | Phone: 619-343-3232 | Age: 54 | Sex: F ]
+	30:[ Name: July Andrews	 | Phone: 858-324-8832 | Age: 85 | Sex: F ]
+	31:[ Name: Carl Lewis	 | Phone: 858-456-8402 | Age: 59 | Sex: M ]
+	32:[ Name: Nikola Tesla	 | Phone: 619-574-8465 | Age: 67 | Sex: M ]
+	33:[ Name: Henry Ford	 | Phone: 858-342-3243 | Age: 45 | Sex: M ]
+	34:[ Name: Alan Turing	 | Phone: 232-423-4534 | Age: 33 | Sex: M ]
+	35:[ Name: Steve Jobs	 | Phone: 234-234-2342 | Age: 27 | Sex: M ]
+	36:[ Name: Mark Twain	 | Phone: 234-234-2343 | Age: 18 | Sex: M ]
+	37:[ Name: James Cook	 | Phone: 838-987-8978 | Age: 34 | Sex: M ]
+	38:[ Name: John Locke	 | Phone: 767-897-8973 | Age: 87 | Sex: M ]
+	39:[ Name: James Watt	 | Phone: 234-324-4354 | Age: 90 | Sex: M ]
+	40:[ Name: Stan Lee	 | Phone: 858-234-8734 | Age: 70 | Sex: M ]
+	41:[ Name: Max Planck	 | Phone: 234-234-9089 | Age: 99 | Sex: M ]
+	42:[ Name: mike sharko	 | Phone: 000-000-0000 | Age: 45 | Sex: F ]
+	43:[empty]
+	44:[empty]
+	45:[empty]
+	46:[empty]
+	47:[empty]
+	48:[empty]
+	49:[empty]
+	50:[empty]
+	51:[empty]
+	52:[empty]
+	53:[empty]
+	54:[empty]
+	55:[ Name: Kevin Costner	 | Phone: 619-656-3455 | Age: 78 | Sex: M ]
+	56:[empty]
+	57:[empty]
+	58:[empty]
+	59:[empty]
+	60:[empty]
+	61:[empty]
+	62:[empty]
+	63:[empty]
+	64:[empty]
+	65:[empty]
+	66:[empty]
+	67:[empty]
+	68:[empty]
+	69:[empty]
+	70:[empty]
+	71:[empty]
+	72:[empty]
+	73:[empty]
+	74:[empty]
+	75:[empty]
+	76:[empty]
+	77:[empty]
+	78:[empty]
+	79:[empty]
+
+	--------------M E N U-----------------
+
+	1. [ Search in DB ]
+	2. [ Add Person to DB ]
+	3. [ List all DB ]
+	4. [ About ]
+	5. [ End Program ]
+
+	--------------------------------------
+
+	Enter choice: 5
+[3;J[H[2J
+	 Thank you for using our program, see you next time.
+sh: pause: command not found
+]0;shark003@empress:~/GIT/cs311/HW8[shark003@empress HW8]$ ./a.out 
+	DataBase opens fine V. 1.1-beta
+
+	--------------M E N U-----------------
+
+	1. [ Search in DB ]
+	2. [ Add Person to DB ]
+	3. [ List all DB ]
+	4. [ About ]
+	5. [ End Program ]
+
+	--------------------------------------
+
+	Enter choice: 3
+[3;J[H[2J
+	0: [ Name: Elon Musk	 | Phone: 619-879-8790 | Age: 48 | Sex: M ]
+	1: [ Name: Mike Sharko	 | Phone: 619-724-8798 | Age: 37 | Sex: M ]
+	2: [ Name: Boby Deelan	 | Phone: 619-897-6987 | Age: 22 | Sex: M ]
+	3: [ Name: Nancy Drew	 | Phone: 858-897-8779 | Age: 44 | Sex: F ]
+	4: [ Name: Barack Obama	 | Phone: 676-321-8323 | Age: 63 | Sex: M ]
+	5: [ Name: Donald Trump	 | Phone: 858-988-6979 | Age: 70 | Sex: M ]
+	6: [ Name: Opra Winfrey	 | Phone: 858-989-8788 | Age: 72 | Sex: F ]
+	7: [ Name: Angela Jolie	 | Phone: 897-789-8798 | Age: 48 | Sex: F ]
+	8: [ Name: Tom Hanks	 | Phone: 789-786-9778 | Age: 67 | Sex: M ]
+	9: [ Name: Merlin Monro	 | Phone: 897-897-6786 | Age: 56 | Sex: F ]
+	10:[ Name: Bill Clinton	 | Phone: 897-977-8998 | Age: 65 | Sex: M ]
+	11:[ Name: Adam Sandler	 | Phone: 089-789-7987 | Age: 19 | Sex: M ]
+	12:[ Name: Bradd Pitt	 | Phone: 897-976-1897 | Age: 27 | Sex: M ]
+	13:[ Name: Aria Grande	 | Phone: 767-867-9086 | Age: 63 | Sex: F ]
+	14:[ Name: Jim Carrey	 | Phone: 986-789-6876 | Age: 38 | Sex: M ]
+	15:[ Name: Taylor Swift	 | Phone: 387-264-8732 | Age: 32 | Sex: F ]
+	16:[ Name: Katy Perry	 | Phone: 786-786-7896 | Age: 37 | Sex: F ]
+	17:[ Name: Ben Affleck	 | Phone: 234-234-9234 | Age: 48 | Sex: M ]
+	18:[ Name: Johnny Depp	 | Phone: 234-234-2234 | Age: 65 | Sex: M ]
+	19:[ Name: Andy Warhol	 | Phone: 619-724-9080 | Age: 80 | Sex: M ]
+	20:[ Name: Bill Gates	 | Phone: 619-545-3454 | Age: 70 | Sex: M ]
+	21:[ Name: Dalai Lama	 | Phone: 619-454-9848 | Age: 90 | Sex: M ]
+	22:[ Name: Walt Disney	 | Phone: 858-453-3434 | Age: 99 | Sex: M ]
+	23:[ Name: Peter Selers	 | Phone: 619-343-8783 | Age: 89 | Sex: M ]
+	24:[ Name: Leo Tolstoy	 | Phone: 858-903-3423 | Age: 67 | Sex: M ]
+	25:[ Name: Oscar Wilde	 | Phone: 619-343-3434 | Age: 34 | Sex: M ]
+	26:[ Name: Coco Chanel	 | Phone: 858-654-5235 | Age: 44 | Sex: M ]
+	27:[ Name: Mao Zedong	 | Phone: 858-234-2343 | Age: 45 | Sex: M ]
+	28:[ Name: Tiger Woods	 | Phone: 858-233-4234 | Age: 45 | Sex: M ]
+	29:[ Name: Anne Frank	 | Phone: 619-343-3232 | Age: 54 | Sex: F ]
+	30:[ Name: July Andrews	 | Phone: 858-324-8832 | Age: 85 | Sex: F ]
+	31:[ Name: Carl Lewis	 | Phone: 858-456-8402 | Age: 59 | Sex: M ]
+	32:[ Name: Nikola Tesla	 | Phone: 619-574-8465 | Age: 67 | Sex: M ]
+	33:[ Name: Henry Ford	 | Phone: 858-342-3243 | Age: 45 | Sex: M ]
+	34:[ Name: Alan Turing	 | Phone: 232-423-4534 | Age: 33 | Sex: M ]
+	35:[ Name: Steve Jobs	 | Phone: 234-234-2342 | Age: 27 | Sex: M ]
+	36:[ Name: Mark Twain	 | Phone: 234-234-2343 | Age: 18 | Sex: M ]
+	37:[ Name: James Cook	 | Phone: 838-987-8978 | Age: 34 | Sex: M ]
+	38:[ Name: John Locke	 | Phone: 767-897-8973 | Age: 87 | Sex: M ]
+	39:[ Name: James Watt	 | Phone: 234-324-4354 | Age: 90 | Sex: M ]
+	40:[ Name: Stan Lee	 | Phone: 858-234-8734 | Age: 70 | Sex: M ]
+	41:[ Name: Max Planck	 | Phone: 234-234-9089 | Age: 99 | Sex: M ]
+	42:[ Name: mike sharko	 | Phone: 000-000-0000 | Age: 45 | Sex: F ]
+	43:[empty]
+	44:[empty]
+	45:[empty]
+	46:[empty]
+	47:[empty]
+	48:[empty]
+	49:[empty]
+	50:[empty]
+	51:[empty]
+	52:[empty]
+	53:[empty]
+	54:[empty]
+	55:[ Name: Kevin Costner	 | Phone: 619-656-3455 | Age: 78 | Sex: M ]
+	56:[empty]
+	57:[empty]
+	58:[empty]
+	59:[empty]
+	60:[empty]
+	61:[empty]
+	62:[empty]
+	63:[empty]
+	64:[empty]
+	65:[empty]
+	66:[empty]
+	67:[empty]
+	68:[empty]
+	69:[empty]
+	70:[empty]
+	71:[empty]
+	72:[empty]
+	73:[empty]
+	74:[empty]
+	75:[empty]
+	76:[empty]
+	77:[empty]
+	78:[empty]
+	79:[empty]
+
+	--------------M E N U-----------------
+
+	1. [ Search in DB ]
+	2. [ Add Person to DB ]
+	3. [ List all DB ]
+	4. [ About ]
+	5. [ End Program ]
+
+	--------------------------------------
+
+	Enter choice: 4
+[3;J[H[2J
+	 -------------A B O U T --------------
+	 This is a demo program simulating a simple registery data base of famous people.
+	 It is using hash table function and linked list. You can make a simple search by ID, add people to data base.
+	 They will be saved in input.txt file which works like a simple data base.
+	 You can also list all the people who are in data base.
+	 Program is written by Mike Sharko for CS311 course.
+	 -------------------------------------
+
+	--------------M E N U-----------------
+
+	1. [ Search in DB ]
+	2. [ Add Person to DB ]
+	3. [ List all DB ]
+	4. [ About ]
+	5. [ End Program ]
+
+	--------------------------------------
+
+	Enter choice: 5
+[3;J[H[2J
+	 Thank you for using our program, see you next time.
+sh: pause: command not found
+]0;shark003@empress:~/GIT/cs311/HW8[shark003@empress HW8]$ exit
+exit
+
+Script done on Thu 12 Dec 2019 11:44:57 AM PST
