@@ -29,10 +29,10 @@ int main()
   int age;
   string sex;
   int end = 1;
-  string file = "input.txt";
+  //string file = "input.txt";
   ifstream fin; //for input
   ofstream fout; //for output
-  fin.open(file);
+  fin.open("input.txt");
  
  
   if (!fin.is_open()) {
