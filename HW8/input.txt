@@ -39,7 +39,11 @@
 38 John Locke 767-897-8973 87 M
 39 James Watt 234-324-4354 90 M
 40 Stan Lee 858-234-8734 70 M
+<<<<<<< HEAD
 41 Max Planck 234-234-9089 99 M
 42 mike sharko 000-000-0000 45 F
 
 55 Kevin Costner 619-656-3455 78 M
+=======
+41 Max Planck 234-234-9089 98 M
+>>>>>>> 19f3837001f5d9ab4c0df6ff3902547b8dc243fc
